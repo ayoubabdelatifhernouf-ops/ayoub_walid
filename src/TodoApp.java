@@ -7,6 +7,13 @@ public class TodoApp {
 
     public static void main(String[] args) {
 
+        System.out.println("=== CONNEXION ===");
+        System.out.print("Nom utilisateur : ");
+        String username = scanner.nextLine();
+
+        System.out.println("Bienvenue " + username + " !");
+        
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=== MINI TODO APP ===");
